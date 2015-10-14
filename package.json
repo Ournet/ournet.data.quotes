@@ -1,0 +1,25 @@
+{
+  "name": "ournet.data.quotes",
+  "version": "0.0.6",
+  "description": "Ournet quotes data module",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ournet/ournet.data.quotes.git"
+  },
+  "keywords": [
+    "ournet",
+    "data",
+    "quotes"
+  ],
+  "author": "Dumitru Cantea",
+  "license": "ISC",
+  "dependencies": {
+    "joi": "^6.4.1",
+    "ournet.core": "^0.1.8",
+    "vogels": "^2.0.0-rc9"
+  }
+}
