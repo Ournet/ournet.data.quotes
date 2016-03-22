@@ -1,10 +1,10 @@
 {
   "name": "ournet.data.quotes",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "description": "Ournet quotes data module",
   "main": "./lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/mocha/bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -18,8 +18,13 @@
   "author": "Dumitru Cantea",
   "license": "ISC",
   "dependencies": {
-    "joi": "^6.4.1",
-    "ournet.core": "^0.1.8",
-    "vogels": "^2.0.0-rc9"
+    "atonic": "^1.0.4",
+    "bluebird": "^3.3.4",
+    "lodash": "^4.6.1",
+    "ournet.utils": "^0.1.0",
+    "vogels-helpers": "^0.1.6"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5"
   }
 }
