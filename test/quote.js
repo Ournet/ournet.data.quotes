@@ -5,14 +5,14 @@ var assert = require('assert');
 
 describe('Quote', function() {
 	it('should normalize a quote', function() {
-		var q = Quote.normalizeQuote({
+		var q = Quote.normalize({
 			country: 'ro',
 			lang: 'ro',
 			category: 1
 		});
 		assert.equal(null, q);
 
-		q = Quote.normalizeQuote({
+		q = Quote.normalize({
 			country: 'ro',
 			lang: 'ro',
 			category: 1,
